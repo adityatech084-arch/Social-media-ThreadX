@@ -57,12 +57,12 @@ const SignInForm = () => {
         </button>
       </form>
 
-      <div className="relative my-6 md:my-4">
+      <div className="relative my-6 md:my-8">
         <div className="absolute inset-0 flex items-center">
           <div className="w-full border-t border-[#E5E7EB]"></div>
         </div>
         <div className="relative flex justify-center text-[10px] md:text-xs">
-          <span className="bg-white px-3 text-gray-600 font-medium tracking-wide uppercase">Or continue with</span>
+          <span className="bg-white px-3 text-gray-400 font-medium tracking-wide uppercase">Or continue with</span>
         </div>
       </div>
 
@@ -79,7 +79,7 @@ const SignInForm = () => {
 };
 
 const SocialButton = ({ provider }) => (
-  <button className="flex items-center justify-center w-full  p-2 border border-[#E5E7EB] rounded-md hover:bg-gray-50 transition-colors">
+  <button className="flex items-center justify-center w-full h-10 md:h-12 border border-[#E5E7EB] rounded-md hover:bg-gray-50 transition-colors">
     <span className="text-xs md:text-sm font-medium text-gray-700">{provider}</span>
   </button>
 );
