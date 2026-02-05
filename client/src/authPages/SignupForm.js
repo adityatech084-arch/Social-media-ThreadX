@@ -12,7 +12,7 @@ const SignInForm = () => {
         <p className="text-sm md:text-base text-[#6B7280]">Welcome back. Please enter your credentials.</p>
       </div>
 
-      <form className="space-y-3 md:space-y-" onSubmit={(e) => e.preventDefault()}>
+      <form className="space-y-3 md:space-y-2" onSubmit={(e) => e.preventDefault()}>
 
 <div className="relative group">
     <label
@@ -24,9 +24,9 @@ const SignInForm = () => {
   <input
     id="email"
     type="email"
-    placeholder=" "
-    className="peer w-full border border-[#E5E7EB] rounded h-10 md:h-10 px-3 md:px-4 text-sm text-gray-900 
-               placeholder-transparent focus:outline-none focus:ring-1 focus:ring-[#0A192F] focus:border-[#0A192F] transition-all"
+    placeholder=" @gmail.com"
+    className="peer w-full border border-[#636568] bg-transparent my-0.5 rounded h-10 md:h-10 px-3 md:px-4 text-sm text-gray-900 
+              focus:outline-none focus:ring-1 focus:ring-[#0A192F] focus:border-[#0A192F] transition-all"
   />
 
 </div>
@@ -41,9 +41,9 @@ const SignInForm = () => {
   <input
     id="email"
     type="password"
-    placeholder=" "
-    className="peer w-full border border-[#E5E7EB]  rounded h-10 md:h-10 p-5 md:px-4 text-sm text-gray-900 
-               placeholder-transparent focus:outline-none focus:ring-1 focus:ring-[#0A192F] focus:border-[#0A192F] transition-all"
+    placeholder="password "
+    className="peer w-full border border-[#636568] my-0.5 rounded h-10 md:h-10 p-5 md:px-4 text-sm text-gray-900 bg-transparent
+               focus:outline-none focus:ring-1 focus:ring-[#0A192F] focus:border-[#0A192F] transition-all"
   />
  
 </div>
